@@ -1,0 +1,4 @@
+python-dotenv>=0.20.0
+pyrootutils>=1.0.4
+pytest>=7.1.2
+pytest-cov>=3.0.0
