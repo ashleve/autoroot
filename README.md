@@ -15,14 +15,14 @@ pip install autorootcwd
 
 ```python
 # this adds root folder to pythonpath, sets PROJECT_ROOT var, and loads variables from `.env`
-import autoroot 
+import autoroot
 ```
 
 Or:
 
 ```python
 # this also changes working directory to root
-import autorootcwd 
+import autorootcwd
 ```
 
 That's it! You're done. One import is enough.
