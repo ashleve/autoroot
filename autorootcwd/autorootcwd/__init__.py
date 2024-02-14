@@ -7,8 +7,12 @@ from pyrootutils import setup_root
 # this line finds the absolute path of the original python script that is being run
 startfile = os.path.abspath(sys.argv[0])
 
-# if we are in notebook or pytest, just use current working directory
-if startfile.endswith("ipykernel_launcher.py") or startfile.endswith("pytest"):
+# if we are in notebook, pytest, or ipython, just use current working directory
+if (
+    startfile.endswith("ipykernel_launcher.py") 
+    or startfile.endswith("pytest")
+    or startfile.endswith("ipython")
+):
     startfile = os.getcwd()
 
 # convert to Path object
