@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="autoroot",
-    version="1.0.0",
+    version="1.0.1",
     license="MIT",
     description="Simple package for easy project root setup",
     long_description="",
@@ -11,7 +11,7 @@ setup(
     author="Łukasz Zalewski",
     author_email="lukasz.zalewski.ai@gmail.com",
     packages=find_packages(),
-    python_requires=">=3.7.0",
+    python_requires=">=3.8.0",
     include_package_data=True,
     install_requires=["python-dotenv>=0.20.0", "pyrootutils>=1.0.4"],
     tests_require=["pytest"],
