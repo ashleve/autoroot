@@ -9,7 +9,7 @@ startfile = os.path.abspath(sys.argv[0])
 
 # if we are in notebook, pytest, or ipython, just use current working directory
 if (
-    startfile.endswith("ipykernel_launcher.py") 
+    startfile.endswith("ipykernel_launcher.py")
     or startfile.endswith("pytest")
     or startfile.endswith("ipython")
 ):
